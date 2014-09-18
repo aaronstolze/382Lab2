@@ -18,6 +18,8 @@ In order to achieve required functionality, the following encrypted message had 
 ```
 The key is `0xac`
 
+The code was split into two different subroutines that would decrypt the message.  The first subroutine would use the pass-by-reference technique in order to look at the individual bytes of information.  After looking at the bytes, a second subroutine would be called which would use a pass-by-value technique.  This second subroutine would actually decrypt the message by XOR'ing the byte with the key.  After the byte was decrypted, the code would return back to the first subroutine where it will move onto the next byte, call the second subroutine and decrypt it.  This will continue until the entirety of the message is decrypted.  
+
 
 #B Functionality
 
@@ -29,6 +31,10 @@ In order to achieve B functionality, an arbitrarily long key is used to decrypt 
 The key is `0xacdf23`
 
 #A Functionality
+
+In order to achieve A functionality, an encrypted message had to be decrypted without the use of any key whatsoever.  The encrypted message is as follows.
+
+
 
 #Documentation
 
