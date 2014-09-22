@@ -7,7 +7,7 @@ ECE 382 Lab 2
 
 The prelab for this lab consisted of setting up a flowchart to describe how the code will work to decrypt the encrypted message.  The following flowchart depicts the path that my code will take.
 
-#![alt text](https://raw.githubusercontent.com/aaronstolze/382Lab2/master/Flowchart.jpg"Lab 2 Flowchart") INSERT URL FOR PICTURE
+#![alt text](https://raw.githubusercontent.com/aaronstolze/382Lab2/master/Flowchart.jpg"Lab 2 Flowchart") 
 
 #Required Functionality
 
